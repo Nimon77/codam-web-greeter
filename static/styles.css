@@ -119,7 +119,7 @@ footer {
 	padding: var(--padding) var(--padding);
 	backdrop-filter: var(--blur-bg-filter);
 	background-color: var(--bg-color-darken);
-	color: var(--color-text-secondary);
+	color: var(--color-text-primary);
 	font-size: small;
 	text-shadow: var(--text-shadow);
 	white-space: nowrap;
@@ -435,7 +435,7 @@ aside {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-	color: var(--color-text-secondary);
+	color: var(--color-text-primary);
 	padding: var(--padding);
 	width: 48px;
 	flex-grow: 0;
@@ -490,12 +490,12 @@ aside {
 .calendar-event .calendar-event-description {
 	line-clamp: 2;
 	-webkit-line-clamp: 2;
-	color: var(--color-text-secondary);
+	color: var(--color-text-primary);
 	margin-bottom: calc(var(--padding) / 2);
 }
 
 .calendar-event .calendar-event-details {
-	color: var(--color-text-secondary);
+	color: var(--color-text-primary);
 	font-size: x-small;
 }
 
